@@ -15,4 +15,10 @@
       <macro connection="destination" path="../../../../../Cluster_43_connection/Cluster_43_Sector001_connection/ZoneDAG2_Cluster_43_Sector001_connection/connection_ClusterGate043To015"/>
     </connection>
   </add>
+  <remove sel="//connection[@name='ClusterGate018To019']"/>
+  <add sel="/macros/macro[@name='XU_EP2_universe_macro']/connections">
+    <connection name="ClusterGate009To019" ref="destination" path="../Cluster_09_connection/Cluster_09_Sector001_connection/ZoneDAG3_Cluster_09_Sector001_connection/connection_ClusterGate009To019">
+      <macro connection="destination" path="../../../../../Cluster_19_connection/Cluster_19_Sector001_connection/ZoneDAG6_Cluster_19_Sector001_connection/connection_ClusterGate019To009"/>
+    </connection>
+  </add>
 </diff>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="DeadAirGate" name="DeadAir Gate" description="New connections." author="DeadAir" version="001" date="2021-03-03" save="1" enabled="1">
+<content id="DeadAirGate" name="DeadAir Gate" description="New connections." author="DeadAir" version="002" date="2022-01-07" save="1" enabled="1">
 	<dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
+	<dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity" />
 	<text language="7" 	name="DeadAir Gate" description="New connections." author="DeadAir" />
 	<text language="33" name="DeadAir Gate" description="New connections." author="DeadAir" />
 	<text language="34" name="DeadAir Gate" description="New connections." author="DeadAir" />

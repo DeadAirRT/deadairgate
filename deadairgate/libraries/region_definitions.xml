@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/regions/region[@name='p1_wreckfield_xenon_teladi_battle_200km']/fields">
+    <asteroid groupref="asteroid_ore_xxl" densityfactor="0.025" noisescale="20000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='p1_wreckfield_xenon_teladi_battle_200km']/fields">
+    <asteroid groupref="asteroid_ore_xl" densityfactor="0.05" noisescale="20000" minnoisevalue="0.7" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='p1_wreckfield_xenon_teladi_battle_200km']/fields">
+    <asteroid groupref="asteroid_silicon_xl" densityfactor="0.05" noisescale="20000" minnoisevalue="0.7" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='p1_wreckfield_xenon_teladi_battle_200km']/fields">
+    <asteroid groupref="asteroid_ore_l" densityfactor="0.325" noisescale="25000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='p1_wreckfield_xenon_teladi_battle_200km']/fields">
+    <asteroid groupref="asteroid_silicon_l" densityfactor="0.2125" noisescale="25000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='p1_wreckfield_xenon_teladi_battle_200km']/resources">
+    <resource ware="ore" yield="high"/>
+  </add>
+  <add sel="/regions/region[@name='p1_wreckfield_xenon_teladi_battle_200km']/resources">
+    <resource ware="silicon" yield="high"/>
+  </add>
+  <replace sel="/regions/region[@name='region_cluster_16_sector_001']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_16_sector_001']/resources/resource[@ware='silicon']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_17_sector_001']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_17_sector_001']/resources/resource[@ware='silicon']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_25_sector_001']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_25_sector_001']/resources/resource[@ware='silicon']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_25_sector_002']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_25_sector_002']/resources/resource[@ware='silicon']/@yield">high</replace>
+  <add sel="/regions/region[@name='region_cluster_26_sector_001']/fields">
+    <asteroid groupref="asteroid_silicon_xl" densityfactor="0.05" noisescale="20000" minnoisevalue="0.7" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_26_sector_001']/fields">
+    <asteroid groupref="asteroid_silicon_l" densityfactor="0.2125" noisescale="25000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <replace sel="/regions/region[@name='region_cluster_26_sector_001']/resources/resource[@ware='ore']/@yield">high</replace>
+  <add sel="/regions/region[@name='region_cluster_26_sector_001']/resources">
+    <resource ware="silicon" yield="high"/>
+  </add>
+  <replace sel="/regions/region[@name='region_cluster_26_sector_002']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_26_sector_002']/resources/resource[@ware='silicon']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_32_sector_001']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_32_sector_001']/resources/resource[@ware='silicon']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_32_sector_002']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_32_sector_002']/resources/resource[@ware='silicon']/@yield">high</replace>
+  <add sel="/regions/region[@name='region_cluster_33_sector_001']/fields">
+    <asteroid groupref="asteroid_ore_xxl" densityfactor="0.025" noisescale="20000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_33_sector_001']/fields">
+    <asteroid groupref="asteroid_ore_xl" densityfactor="0.05" noisescale="20000" minnoisevalue="0.7" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_33_sector_001']/fields">
+    <asteroid groupref="asteroid_silicon_xl" densityfactor="0.05" noisescale="20000" minnoisevalue="0.7" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_33_sector_001']/fields">
+    <asteroid groupref="asteroid_ore_l" densityfactor="0.325" noisescale="25000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_33_sector_001']/fields">
+    <asteroid groupref="asteroid_silicon_l" densityfactor="0.2125" noisescale="25000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_33_sector_001']">
+    <resources>
+      <resource ware="ore" yield="high"/>
+      <resource ware="silicon" yield="high"/>
+    </resources>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_413_sector_001']/fields">
+    <asteroid groupref="asteroid_ore_xxl" densityfactor="0.025" noisescale="20000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_413_sector_001']/fields">
+    <asteroid groupref="asteroid_ore_xl" densityfactor="0.05" noisescale="20000" minnoisevalue="0.7" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_413_sector_001']/fields">
+    <asteroid groupref="asteroid_silicon_xl" densityfactor="0.05" noisescale="20000" minnoisevalue="0.7" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_413_sector_001']/fields">
+    <asteroid groupref="asteroid_ore_l" densityfactor="0.325" noisescale="25000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_413_sector_001']/fields">
+    <asteroid groupref="asteroid_silicon_l" densityfactor="0.2125" noisescale="25000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_413_sector_001']/resources">
+    <resource ware="ore" yield="high"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_413_sector_001']/resources">
+    <resource ware="silicon" yield="high"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_414_sector_001']/fields">
+    <asteroid groupref="asteroid_ore_xxl" densityfactor="0.025" noisescale="20000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_414_sector_001']/fields">
+    <asteroid groupref="asteroid_ore_xl" densityfactor="0.05" noisescale="20000" minnoisevalue="0.7" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_414_sector_001']/fields">
+    <asteroid groupref="asteroid_silicon_xl" densityfactor="0.05" noisescale="20000" minnoisevalue="0.7" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_414_sector_001']/fields">
+    <asteroid groupref="asteroid_ore_l" densityfactor="0.325" noisescale="25000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_414_sector_001']/fields">
+    <asteroid groupref="asteroid_silicon_l" densityfactor="0.2125" noisescale="25000" minnoisevalue="0.8" maxnoisevalue="1"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_414_sector_001']/resources">
+    <resource ware="ore" yield="high"/>
+  </add>
+  <add sel="/regions/region[@name='region_cluster_414_sector_001']/resources">
+    <resource ware="silicon" yield="high"/>
+  </add>
+  <replace sel="/regions/region[@name='region_cluster_415_sector_001']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_415_sector_001']/resources/resource[@ware='silicon']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_424_sector_002']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='region_cluster_424_sector_002']/resources/resource[@ware='silicon']/@yield">high</replace>
+  <replace sel="/regions/region[@name='cluster112_s1_region01']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='cluster112_s1_region01']/resources/resource[@ware='silicon']/@yield">high</replace>
+  <replace sel="/regions/region[@name='cluster112_s2_region01']/resources/resource[@ware='ore']/@yield">high</replace>
+  <replace sel="/regions/region[@name='cluster112_s2_region01']/resources/resource[@ware='silicon']/@yield">high</replace>
+</diff>
