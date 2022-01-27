@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
-  <remove sel="/defaults/dataset[@macro='Cluster_04_macro']/properties/area/@factionlogic"/>
-  <remove sel="/defaults/dataset[@macro='Cluster_31_macro']/properties/area/@factionlogic"/>
-  <remove sel="/defaults/dataset[@macro='Cluster_44_macro']/properties/area/@factionlogic"/>
-  <remove sel="/defaults/dataset[@macro='Cluster_45_macro']/properties/area/@factionlogic"/>
+  <replace sel="/defaults/dataset[@macro='Cluster_04_macro']/properties/area/@factionlogic">true</replace>
+  <replace sel="/defaults/dataset[@macro='Cluster_31_macro']/properties/area/@factionlogic">true</replace>
+  <replace sel="/defaults/dataset[@macro='Cluster_44_macro']/properties/area/@factionlogic">true</replace>
+  <replace sel="/defaults/dataset[@macro='Cluster_45_macro']/properties/area/@factionlogic">true</replace>
 </diff>
