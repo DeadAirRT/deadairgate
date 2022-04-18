@@ -3,7 +3,8 @@
 ## Adds several gates
 - Connects Antigone Memorial to Second Contact 11
 - Connects Morning Star 4 to Silent Witness
-- Connects Ianamus Zura to Hewa's Twin
+- Connects Ianamus Zura to Hewa's Twin V
+- Connects Bright Promise to Hewa's Twin I
 - Connects Zyarth's dominion 4 to Family Nhuut
 ## Resource changes
 - Adds several resource regions to Xenon sectors
