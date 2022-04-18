@@ -9,6 +9,7 @@
 - Adds several resource regions to Xenon sectors
 - Adds/improves Split resource regions
 - Removes extra small and small ore/ice/silicon/debris
+- Removes rotation from asteroids.
 - Increases resources by 50% on: ore/silicon lowest-high, ice lowest-very low, nvidium. Reduces replenish time by 50%. (If unwanted, delete libraries/regionyields.xml)
 ## Upgrades station designs
 - Adds additional defense modules to important stations
