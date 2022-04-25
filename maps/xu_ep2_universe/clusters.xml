@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//macro[@name='Cluster_23_macro']/connections">
+		<connection name="C23S01_RegionDA1_connection" ref="regions">
+			<offset>
+				<position x="45000" y="0" z="45000"/>
+			</offset>
+			<macro name="C23S01_RegionDA1_macro">
+				<component connection="cluster" ref="standardregion"/>
+				<properties>
+					<region ref="p1_40km_methane_field"/>
+				</properties>
+			</macro>
+		</connection>
+		<connection name="C23S01_RegionDA2_connection" ref="regions">
+			<offset>
+				<position x="55000" y="0" z="55000"/>
+			</offset>
+			<macro name="C23S01_RegionDA2_macro">
+				<component connection="cluster" ref="standardregion"/>
+				<properties>
+					<region ref="p1_40km_asteroid_field"/>
+				</properties>
+			</macro>
+		</connection>
+		<connection name="C23S01_RegionDA3_connection" ref="regions">
+			<offset>
+				<position x="50000" y="0" z="50000"/>
+			</offset>
+			<macro name="C23S01_RegionDA3_macro">
+				<component connection="cluster" ref="standardregion"/>
+				<properties>
+					<region ref="p1_40km_helium_field"/>
+				</properties>
+			</macro>
+		</connection>
+	</add>
+</diff>
