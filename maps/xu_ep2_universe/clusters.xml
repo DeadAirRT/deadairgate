@@ -35,4 +35,69 @@
 			</macro>
 		</connection>
 	</add>
+	<add sel="//macro[@name='Cluster_21_macro']/connections">
+		<connection name="C21S01_RegionDA1_connection" ref="regions">
+			<offset>
+				<position x="-44749" y="0" z="-151558"/>
+			</offset>
+			<macro name="C21S01_RegionDA1_macro">
+				<component connection="cluster" ref="standardregion"/>
+				<properties>
+					<region ref="p1_40km_asteroid_field"/>
+				</properties>
+			</macro>
+		</connection>
+	</add>
+	<add sel="//macro[@name='Cluster_08_macro']/connections">
+		<connection name="C08S01_RegionDAGrav_connection" ref="regions">
+			<offset>
+				<position x="453040.75" y="0" z="-524074.875"/>
+			</offset>
+			<macro name="C08S01_RegionDAGrav_macro">
+				<component connection="cluster" ref="standardregion"/>
+				<properties>
+					<region ref="region_cluster_38_sector_001"/>
+				</properties>
+			</macro>
+		</connection>
+	</add>
+	<add sel="//macro[@name='Cluster_09_macro']/connections">
+		<connection name="C09S01_RegionDAGrav_connection" ref="regions">
+			<offset>
+				<position x="453040.75" y="0" z="-524074.875"/>
+			</offset>
+			<macro name="C09S01_RegionDAGrav_macro">
+				<component connection="cluster" ref="standardregion"/>
+				<properties>
+					<region ref="region_cluster_38_sector_001"/>
+				</properties>
+			</macro>
+		</connection>
+	</add>
+	<add sel="//macro[@name='Cluster_12_macro']/connections">
+		<connection name="C12S01_RegionDAGrav_connection" ref="regions">
+			<offset>
+				<position x="453040.75" y="0" z="-524074.875"/>
+			</offset>
+			<macro name="C12S01_RegionDAGrav_macro">
+				<component connection="cluster" ref="standardregion"/>
+				<properties>
+					<region ref="region_cluster_38_sector_001"/>
+				</properties>
+			</macro>
+		</connection>
+	</add>
+	<add sel="//macro[@name='Cluster_13_macro']/connections">
+		<connection name="C13S01_RegionDAGrav_connection" ref="regions">
+			<offset>
+				<position x="453040.75" y="0" z="-524074.875"/>
+			</offset>
+			<macro name="C13S01_RegionDAGrav_macro">
+				<component connection="cluster" ref="standardregion"/>
+				<properties>
+					<region ref="region_cluster_38_sector_001"/>
+				</properties>
+			</macro>
+		</connection>
+	</add>
 </diff>

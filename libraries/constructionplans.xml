@@ -205,6 +205,314 @@
       </offset>
     </entry>
   </add>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_disc_01_macro'][@connection='connectionsnap002']/offset/rotation/@yaw">-29.99998</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='struct_par_base_02_macro']/@macro">struct_par_cross_01_macro</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='struct_par_cross_01_macro']/offset/position/@z">241.089</replace>
+  <add sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='dockarea_arg_m_station_01_macro']" pos="before">
+    <entry index="12" macro="storage_par_s_container_01_macro" connection="connectionsnap002">
+      <predecessor index="11" connection="connectionsnap004"/>
+      <offset>
+        <position x="402.615" y="-200" z="241.089"/>
+      </offset>
+    </entry>
+  </add>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='dockarea_arg_m_station_01_macro']/@index">13</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='dockarea_arg_m_station_01_macro']/offset/position/@z">-158.911</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='pier_par_harbor_03_macro']/@index">14</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='pier_par_harbor_03_macro']/@macro">pier_par_harbor_02_macro</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='pier_par_harbor_02_macro']/@connection">connectionsnap004</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='pier_par_harbor_02_macro']/predecessor/@index">13</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='pier_par_harbor_02_macro']/offset/position/@z">-358.911</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='pier_par_harbor_02_macro']/offset/rotation/@yaw">-89.99997</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap002']/@index">15</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap002']/@connection">connectionsnap001</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='15'][1]/predecessor/@index">13</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='15'][1]/predecessor/@connection">connectionsnap003</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='15'][1]/offset/position/@x">802.659</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='15'][1]/offset/position/@z">-158.955</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='15'][1]/offset/rotation/@yaw">89.99997</replace>
+  <remove sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='15'][2]"/>
+  <remove sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_disc_01_macro'][@connection='connectionsnap001'][@index='16']"/>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_disc_01_macro'][@connection='connectionsnap004'][@index='17']/@index">16</replace>
+  <replace sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']/entry[@macro='defence_par_disc_01_macro'][@connection='connectionsnap004'][@index='16']/offset/position/@z">-158.955</replace>
+  <add sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']">
+    <entry index="17" macro="defence_par_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="13" connection="connectionsnap004"/>
+      <offset>
+        <position x="2.659" z="-158.867"/>
+        <rotation yaw="90.00001"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_defence'][@name='{20102,1201}']">
+    <entry index="18" macro="defence_par_disc_01_macro" connection="connectionsnap001">
+      <predecessor index="17" connection="connectionsnap001"/>
+      <offset>
+        <position x="-397.341" z="-158.866"/>
+        <rotation yaw="-89.99995"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='2']" pos="before">
+    <entry index="2" macro="struct_par_base_03_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap001"/>
+      <offset>
+        <position x="1053.813" y="-0.00079" z="15.651"/>
+        <rotation yaw="-89.99993"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='2']" pos="before">
+    <entry index="3" macro="struct_par_cross_01_macro" connection="connectionsnap005">
+      <predecessor index="2" connection="connectionsnap002"/>
+      <offset>
+        <position x="2053.813" y="-0.0008325" z="15.65"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='2']" pos="before">
+    <entry index="4" macro="dockarea_arg_m_station_02_macro" connection="connectionsnap004">
+      <predecessor index="3" connection="connectionsnap002"/>
+      <offset>
+        <position x="2053.813" y="-0.0007562" z="-384.35"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='2']" pos="before">
+    <entry index="5" macro="dockarea_arg_m_station_02_macro" connection="connectionsnap003">
+      <predecessor index="3" connection="connectionsnap001"/>
+      <offset>
+        <position x="2053.813" y="-0.0007562" z="415.65"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='2']" pos="before">
+    <entry index="6" macro="pier_par_harbor_03_macro" connection="connectionsnap001">
+      <predecessor index="3" connection="connectionsnap006"/>
+      <offset>
+        <position x="2453.813" y="-0.0007435" z="15.65"/>
+        <rotation yaw="-179.99998"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='2']" pos="before">
+    <entry index="7" macro="struct_par_cross_02_macro" connection="connectionsnap005">
+      <predecessor index="1" connection="connectionsnap004"/>
+      <offset>
+        <position x="-346.188" y="-0.0008663" z="-984.348"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='2']" pos="before">
+    <entry index="8" macro="storage_par_l_container_01_macro" connection="connectionsnap001">
+      <predecessor index="7" connection="connectionsnap006"/>
+      <offset>
+        <position x="-346.188" y="-800" z="-984.349"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='2']" pos="before">
+    <entry index="9" macro="hab_par_l_01_macro" connection="connectionsnap001">
+      <predecessor index="7" connection="connectionsnap004"/>
+      <offset>
+        <position x="-346.188" y="199.999" z="-984.348"/>
+      </offset>
+    </entry>
+  </add>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='2']/@index">10</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='10']/offset/position/@x">-346.186</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='10']/offset/position/@y">-0.0008059</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='10']/offset/rotation/@yaw">90.00005</replace>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro'][@connection='connectionsnap003']"/>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='4']"/>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap003']"/>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='6']"/>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='7']"/>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='8']"/>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='9'][2]"/>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap005'][@index='10']"/>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='11']/offset/position/@x">-346.186</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='11']/offset/position/@z">1015.651</replace>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='11']/offset">
+    <rotation yaw="60.48912"/>
+  </add>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='12']/offset/position/@x">-346.186</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='12']/offset/position/@z">1015.652</replace>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='12']/offset">
+    <rotation yaw="60.00005"/>
+  </add>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro']/@connection">connectionsnap003</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro']/predecessor/@connection">connectionsnap001</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro']/offset/position/@x">-346.185</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro']/offset/position/@z">1815.652</replace>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro']/offset/position" type="@y">-0.0006787</add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro']/offset">
+    <rotation yaw="60.00008"/>
+  </add>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap005'][@index='14']"/>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='15']/@index">14</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='14']/offset/position/@x">-1039.004</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='14']/offset/position/@z">2215.654</replace>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='14']/offset/position" type="@y">-0.0009114</add>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_02_macro'][@connection='connectionsnap002'][@index='14']/offset/rotation/@yaw">30.00008</replace>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='16']" pos="before">
+    <entry index="15" macro="struct_par_cross_02_macro" connection="connectionsnap003">
+      <predecessor index="13" connection="connectionsnap001"/>
+      <offset>
+        <position x="346.636" y="-0.001259" z="2215.651"/>
+        <rotation yaw="60.00008"/>
+      </offset>
+    </entry>
+  </add>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='16']/offset/position/@x">346.635</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='16']/offset/position/@y">-800.001</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='16']/offset/position/@z">2215.65</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='16']/offset/rotation/@yaw">60.00008</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='17']/@macro">hab_par_l_01_macro</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='17']/predecessor/@index">15</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='17']/predecessor/@connection">connectionsnap004</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='17']/offset/position/@x">346.636</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='17']/offset/position/@y">199.999</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='17']/offset/position/@z">2215.651</replace>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='17']/offset">
+    <rotation yaw="60.00008"/>
+  </add>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='18']/offset/position/@x">-1039.004</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='18']/offset/position/@y">199.999</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='18']/offset/position/@z">2215.652</replace>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='18']/offset">
+    <rotation yaw="60.00008"/>
+  </add>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='19']/@macro">storage_par_l_solid_01_macro</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_solid_01_macro']/predecessor/@index">14</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_solid_01_macro']/predecessor/@connection">connectionsnap006</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_solid_01_macro']/offset/position/@x">-1039.004</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_solid_01_macro']/offset/position/@y">-800.001</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_solid_01_macro']/offset/position/@z">2215.654</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='20']/@macro">struct_par_cross_03_macro</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro'][@connection='connectionsnap001']/predecessor/@index">7</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro'][@connection='connectionsnap001']/predecessor/@connection">connectionsnap003</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro'][@connection='connectionsnap001']/offset/position/@x">-346.189</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro'][@connection='connectionsnap001']/offset/position/@y">-0.001016</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro'][@connection='connectionsnap001']/offset/position/@z">-1784.348</replace>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_03_macro'][@connection='connectionsnap001']/offset/rotation"/>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap002']" pos="before">
+    <entry index="21" macro="struct_par_cross_02_macro" connection="connectionsnap005">
+      <predecessor index="20" connection="connectionsnap003"/>
+      <offset>
+        <position x="346.631" y="-0.001241" z="-2184.349"/>
+        <rotation yaw="-59.99995"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap002']" pos="before">
+    <entry index="22" macro="struct_par_cross_02_macro" connection="connectionsnap002">
+      <predecessor index="20" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1039.009" y="-0.001241" z="-2184.347"/>
+        <rotation yaw="-29.99995"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap002']" pos="before">
+    <entry index="23" macro="storage_par_l_container_01_macro" connection="connectionsnap001">
+      <predecessor index="21" connection="connectionsnap006"/>
+      <offset>
+        <position x="346.631" y="-800.001" z="-2184.348"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap002']" pos="before">
+    <entry index="24" macro="hab_par_l_01_macro" connection="connectionsnap001">
+      <predecessor index="21" connection="connectionsnap004"/>
+      <offset>
+        <position x="346.631" y="199.999" z="-2184.349"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap002']" pos="before">
+    <entry index="25" macro="hab_par_l_01_macro" connection="connectionsnap001">
+      <predecessor index="22" connection="connectionsnap004"/>
+      <offset>
+        <position x="-1039.009" y="199.999" z="-2184.35"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap002']" pos="before">
+    <entry index="26" macro="storage_par_l_liquid_01_macro" connection="connectionsnap001">
+      <predecessor index="22" connection="connectionsnap006"/>
+      <offset>
+        <position x="-1039.009" y="-800.001" z="-2184.347"/>
+      </offset>
+    </entry>
+  </add>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap002']/@index">27</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap002']/offset/position/@z">15.653</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap002']/offset/rotation/@yaw">-89.99993</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_01_macro'][@connection='connectionsnap006']/@index">28</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_01_macro'][@connection='connectionsnap006']/predecessor/@index">27</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_01_macro'][@connection='connectionsnap006']/offset/position/@z">15.654</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='pier_par_harbor_03_macro'][@connection='connectionsnap001'][@index='23']/@index">29</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='pier_par_harbor_03_macro'][@connection='connectionsnap001'][@index='29'][1]/@macro">dockarea_arg_m_station_02_macro</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_02_macro'][@connection='connectionsnap001']/@connection">connectionsnap003</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_02_macro'][@connection='connectionsnap003'][@index='29']/predecessor/@index">28</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_02_macro'][@connection='connectionsnap003'][@index='29']/predecessor/@connection">connectionsnap001</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_02_macro'][@connection='connectionsnap003'][@index='29']/offset/position/@x">-2746.187</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_02_macro'][@connection='connectionsnap003'][@index='29']/offset/position/@y">-0.0008074</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_02_macro'][@connection='connectionsnap003'][@index='29']/offset/position/@z">415.654</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_01_lowtech_macro'][@connection='connectionsnap001'][@index='24']/@index">30</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_01_lowtech_macro'][@connection='connectionsnap001'][@index='30']/@macro">dockarea_arg_m_station_02_macro</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_02_macro'][@connection='connectionsnap001']/@connection">connectionsnap004</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_02_macro'][@connection='connectionsnap004'][@index='30']/predecessor/@index">28</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_02_macro'][@connection='connectionsnap004'][@index='30']/offset/position/@y">-0.0008074</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_02_macro'][@connection='connectionsnap004'][@index='30']/offset/position/@z">-384.346</replace>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_01_lowtech_macro'][@connection='connectionsnap002'][@index='25']" pos="before">
+    <entry index="31" macro="pier_par_harbor_03_macro" connection="connectionsnap001">
+      <predecessor index="28" connection="connectionsnap005"/>
+      <offset>
+        <position x="-3146.187" y="-0.0007435" z="15.654"/>
+      </offset>
+    </entry>
+  </add>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_01_lowtech_macro'][@connection='connectionsnap002'][@index='25']/@index">32</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_01_lowtech_macro'][@connection='connectionsnap002'][@index='32']/@macro">defence_par_tube_01_macro</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro']/offset/position/@x">-1558.624</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro']/offset/position/@y">-0.001369</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro']/offset/position/@z">-2484.347</replace>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro']/offset">
+    <rotation yaw="60.00007"/>
+  </add>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='26']/@index">33</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='hab_par_l_01_macro'][@connection='connectionsnap001'][@index='33']/@macro">defence_par_tube_01_macro</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001']/predecessor/@index">15</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001']/predecessor/@connection">connectionsnap005</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001']/offset/position/@x">866.252</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001']/offset/position/@y">-0.001211</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001']/offset/position/@z">2515.65</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001']/offset/rotation/@yaw">60.00007</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap001'][@index='27']/@index">34</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_base_03_macro'][@connection='connectionsnap001'][@index='34']/@macro">defence_par_tube_01_macro</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='34']/@connection">connectionsnap002</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap002'][@index='34']/predecessor/@index">21</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap002'][@index='34']/predecessor/@connection">connectionsnap003</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap002'][@index='34']/offset/position/@x">866.246</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap002'][@index='34']/offset/position/@y">-0.001447</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap002'][@index='34']/offset/position/@z">-2484.349</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap002'][@index='34']/offset/rotation/@yaw">-59.99995</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_01_macro'][@connection='connectionsnap005'][@index='28']/@index">35</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='struct_par_cross_01_macro'][@connection='connectionsnap005'][@index='35']/@macro">defence_par_tube_01_macro</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap005']/@connection">connectionsnap001</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='35']/predecessor/@index">14</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='35']/predecessor/@connection">connectionsnap001</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='35']/offset/position/@x">-1558.619</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='35']/offset/position/@y">-0.0008558</replace>
+  <replace sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='35']/offset/position/@z">2515.655</replace>
+  <add sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='defence_par_tube_01_macro'][@connection='connectionsnap001'][@index='35']/offset">
+    <rotation yaw="-59.99989"/>
+  </add>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='pier_par_harbor_03_macro'][@connection='connectionsnap001'][@index='29']"/>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_01_lowtech_macro'][@connection='connectionsnap002']"/>
+  <remove sel="/plans/plan[@id='par_tradestation'][@name='{20102,1211}']/entry[@macro='dockarea_arg_m_station_01_lowtech_macro']"/>
   <replace sel="/plans/plan[@id='par_shipyard'][@name='{20102,1231}']/entry[@macro='storage_par_l_container_01_macro'][@connection='connectionsnap001'][@index='33']/@macro">storage_par_m_container_01_macro</replace>
   <replace sel="/plans/plan[@id='par_shipyard'][@name='{20102,1231}']/entry[@macro='storage_par_m_container_01_macro']/predecessor/@index">15</replace>
   <replace sel="/plans/plan[@id='par_shipyard'][@name='{20102,1231}']/entry[@macro='storage_par_m_container_01_macro']/predecessor/@connection">connectionsnap006</replace>
@@ -803,6 +1111,189 @@
       </offset>
     </entry>
   </add>
+  <remove sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='struct_arg_base_02_macro']"/>
+  <replace sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='defence_arg_tube_01_macro'][@connection='connectionsnap002'][@index='7']/@index">6</replace>
+  <replace sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='defence_arg_tube_01_macro'][@connection='connectionsnap001'][@index='8']/@index">7</replace>
+  <remove sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='defence_arg_tube_01_macro'][@connection='connectionsnap001'][@index='9']"/>
+  <remove sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='dockarea_arg_m_station_01_macro']"/>
+  <replace sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='pier_arg_harbor_02_macro']/@index">8</replace>
+  <replace sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='defence_arg_tube_01_macro'][@connection='connectionsnap001'][@index='12']/@index">9</replace>
+  <replace sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='defence_arg_tube_01_macro'][@connection='connectionsnap001'][@index='13']/@index">10</replace>
+  <replace sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='defence_arg_tube_01_macro'][@connection='connectionsnap001'][@index='14']/@index">11</replace>
+  <replace sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='defence_arg_tube_01_macro'][@connection='connectionsnap002'][@index='15']/@index">12</replace>
+  <replace sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='defence_arg_tube_01_macro'][@connection='connectionsnap001'][@index='16']/@index">13</replace>
+  <replace sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']/entry[@macro='defence_arg_tube_01_macro'][@connection='connectionsnap002'][@index='17']/@index">14</replace>
+  <add sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']">
+    <entry index="15" macro="storage_arg_s_container_01_macro" connection="connectionsnap001">
+      <predecessor index="4" connection="connectionsnap003"/>
+      <offset>
+        <position x="1921.965" z="326.279"/>
+        <rotation yaw="-89.0807"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']">
+    <entry index="16" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="15" connection="connectionsnap002"/>
+      <offset>
+        <position x="2521.888" z="316.652"/>
+        <rotation yaw="90.9193"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='arg_defence'][@name='{20102,1101}']">
+    <entry index="17" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap002">
+      <predecessor index="16" connection="connectionsnap002"/>
+      <offset>
+        <position x="2921.836" z="310.234"/>
+        <rotation yaw="90.91927"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']" pos="before">
+    <entry index="2" macro="defence_tel_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap004"/>
+      <offset>
+        <position x="-425.153" z="1194.403"/>
+        <rotation yaw="-89.93257"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']" pos="before">
+    <entry index="3" macro="defence_tel_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap002"/>
+      <offset>
+        <position x="-825.153" z="1194.873"/>
+        <rotation yaw="-89.93259"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']" pos="before">
+    <entry index="4" macro="defence_tel_disc_01_macro" connection="connectionsnap003">
+      <predecessor index="3" connection="connectionsnap002"/>
+      <offset>
+        <position x="-1225.153" z="1195.344"/>
+        <rotation yaw="0.0673881"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']" pos="before">
+    <entry index="5" macro="defence_tel_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap003"/>
+      <offset>
+        <position x="1174.845" z="1192.52"/>
+        <rotation yaw="90.06743"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']" pos="before">
+    <entry index="6" macro="defence_tel_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="5" connection="connectionsnap002"/>
+      <offset>
+        <position x="1574.845" z="1192.049"/>
+        <rotation yaw="90.06743"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']" pos="before">
+    <entry index="7" macro="defence_tel_disc_01_macro" connection="connectionsnap004">
+      <predecessor index="6" connection="connectionsnap002"/>
+      <offset>
+        <position x="1974.844" z="1191.578"/>
+        <rotation yaw="0.0674377"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']" pos="before">
+    <entry index="8" macro="defence_tel_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="1" connection="connectionsnap002"/>
+      <offset>
+        <position x="375.788" z="1993.46"/>
+        <rotation yaw="0.0674293"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']" pos="before">
+    <entry index="9" macro="defence_tel_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="8" connection="connectionsnap002"/>
+      <offset>
+        <position x="376.258" z="2393.46"/>
+        <rotation yaw="0.0674206"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']" pos="before">
+    <entry index="10" macro="defence_tel_disc_01_macro" connection="connectionsnap001">
+      <predecessor index="9" connection="connectionsnap002"/>
+      <offset>
+        <position x="376.728" z="2793.459"/>
+        <rotation yaw="0.067412"/>
+      </offset>
+    </entry>
+  </add>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']/@index">11</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap001']/offset/rotation/@yaw">0.0674466</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_vertical_02_macro'][@connection='connectionsnap001'][@index='3']/@index">12</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_vertical_02_macro'][@connection='connectionsnap001'][@index='12']/@macro">storage_tel_s_container_01_macro</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='storage_tel_s_container_01_macro']/predecessor/@index">11</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_vertical_02_macro']/@index">13</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_vertical_02_macro']/@macro">dockarea_arg_m_station_01_macro</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='dockarea_arg_m_station_01_macro'][@connection='connectionsnap001']/@connection">connectionsnap002</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='dockarea_arg_m_station_01_macro'][@connection='connectionsnap002'][@index='13']/predecessor/@index">11</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='dockarea_arg_m_station_01_macro'][@connection='connectionsnap002'][@index='13']/offset/position/@x">373.434</replace>
+  <remove sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='dockarea_arg_m_station_01_macro'][@connection='connectionsnap002'][@index='13']/offset/position/@y"/>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='dockarea_arg_m_station_01_macro'][@connection='connectionsnap002'][@index='13']/offset/position/@z">-6.538</replace>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='dockarea_arg_m_station_01_macro'][@connection='connectionsnap002'][@index='13']/offset">
+    <rotation yaw="-179.93256"/>
+  </add>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap006']/@index">14</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap006']/@connection">connectionsnap002</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap002']/predecessor/@index">13</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap002']/predecessor/@connection">connectionsnap001</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap002']/offset/position/@x">372.963</replace>
+  <remove sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap002']/offset/position/@y"/>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap002']/offset/position/@z">-406.538</replace>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='struct_tel_cross_01_macro'][@connection='connectionsnap002']/offset">
+    <rotation yaw="-179.93257"/>
+  </add>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='dockarea_arg_m_station_01_macro'][@connection='connectionsnap002'][@index='6']/@index">15</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='dockarea_arg_m_station_01_macro'][@connection='connectionsnap002'][@index='15']/@macro">defence_tel_disc_01_macro</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_disc_01_macro'][@connection='connectionsnap002']/@connection">connectionsnap001</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_disc_01_macro'][@connection='connectionsnap001'][@index='15']/predecessor/@index">14</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_disc_01_macro'][@connection='connectionsnap001'][@index='15']/offset/position/@x">372.492</replace>
+  <remove sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_disc_01_macro'][@connection='connectionsnap001'][@index='15']/offset/position/@y"/>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_disc_01_macro'][@connection='connectionsnap001'][@index='15']/offset/position/@z">-806.537</replace>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_disc_01_macro'][@connection='connectionsnap001'][@index='15']/offset">
+    <rotation yaw="-179.93257"/>
+  </add>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='7']/@index">16</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='16']/@macro">pier_tel_harbor_02_macro</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='pier_tel_harbor_02_macro']/@connection">connectionsnap004</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='pier_tel_harbor_02_macro']/predecessor/@index">15</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='pier_tel_harbor_02_macro']/offset/position/@x">372.257</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='pier_tel_harbor_02_macro']/offset/position/@z">-1006.537</replace>
+  <add sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='pier_tel_harbor_02_macro']/offset/position" type="@y">-0.0001049</add>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='pier_tel_harbor_02_macro']/offset/rotation/@yaw">-89.93259</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='8'][2]/@index">17</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='17']/predecessor/@index">14</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='17']/predecessor/@connection">connectionsnap004</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='17']/offset/position/@x">-27.037</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='17']/offset/position/@z">-406.067</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='17']/offset/rotation/@yaw">-89.93257</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='9'][2]/@index">18</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='18']/@connection">connectionsnap002</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap002'][@index='18']/predecessor/@index">14</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap002'][@index='18']/predecessor/@connection">connectionsnap003</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap002'][@index='18']/offset/position/@x">772.963</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap002'][@index='18']/offset/position/@z">-407.008</replace>
+  <replace sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap002'][@index='18']/offset/rotation/@yaw">-89.93257</replace>
+  <remove sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_disc_01_macro'][@connection='connectionsnap004'][@index='10']"/>
+  <remove sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_disc_01_macro'][@connection='connectionsnap001'][@index='11']"/>
+  <remove sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_disc_01_macro'][@connection='connectionsnap003'][@index='12']"/>
+  <remove sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_disc_01_macro'][@connection='connectionsnap001'][@index='13']"/>
+  <remove sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap001'][@index='14']"/>
+  <remove sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='defence_tel_tube_01_macro'][@connection='connectionsnap002'][@index='15']"/>
+  <remove sel="/plans/plan[@id='tel_defence'][@name='{20102,1301}']/entry[@macro='pier_tel_harbor_01_macro']"/>
   <replace sel="/plans/plan[@id='arg_shipyard'][@name='{20102,1131}']/entry[@macro='defence_arg_tube_01_macro'][@connection='connectionsnap001']/offset/rotation/@yaw">90.00004</replace>
   <replace sel="/plans/plan[@id='arg_shipyard'][@name='{20102,1131}']/entry[@macro='storage_arg_l_container_01_macro'][@connection='connectionsnap001'][@index='26']/offset/rotation/@yaw">-179.99989</replace>
   <replace sel="/plans/plan[@id='arg_shipyard'][@name='{20102,1131}']/entry[@macro='defence_arg_disc_01_macro'][@connection='connectionsnap004'][@index='27']/offset/rotation/@yaw">-89.99995</replace>
@@ -1033,6 +1524,104 @@
       <predecessor index="53" connection="connectionsnap002"/>
       <offset>
         <position x="-3564.831" y="-4800" z="1791.537"/>
+      </offset>
+    </entry>
+  </add>
+  <remove sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='dockarea_arg_m_station_01_macro']"/>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='3']/@index">2</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_disc_01_macro'][@connection='connectionsnap003']/@index">3</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_disc_01_macro'][@connection='connectionsnap003']/predecessor/@index">2</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='5']/@index">4</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='4']/offset/rotation/@yaw">149.99997</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_disc_01_macro'][@connection='connectionsnap001']/@index">5</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_disc_01_macro'][@connection='connectionsnap001']/predecessor/@index">4</replace>
+  <remove sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap001'][@index='7']"/>
+  <remove sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='pier_spl_harbor_02_macro']"/>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='9']/@index">6</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='6']/predecessor/@index">3</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='10']/@index">7</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='7']/predecessor/@index">5</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='7']/offset/rotation/@yaw">-149.99995</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='11']/@index">8</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='8']/predecessor/@index">6</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap002'][@index='8']/offset/rotation/@yaw">-30.00004</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap001']/@index">9</replace>
+  <replace sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']/entry[@macro='defence_spl_tube_01_macro'][@connection='connectionsnap001']/predecessor/@index">7</replace>
+  <add sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']">
+    <entry index="10" macro="struct_spl_base_03_macro" connection="connectionsnap002">
+      <predecessor index="1" connection="connectionsnap001"/>
+      <offset>
+        <position x="1683.821" z="572.861"/>
+        <rotation yaw="90.00001"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']">
+    <entry index="11" macro="storage_spl_s_container_01_macro" connection="connectionsnap002">
+      <predecessor index="10" connection="connectionsnap003"/>
+      <offset>
+        <position x="1683.821" y="-600" z="572.861"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']">
+    <entry index="12" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap001">
+      <predecessor index="10" connection="connectionsnap001"/>
+      <offset>
+        <position x="2683.821" z="572.861"/>
+        <rotation yaw="-89.99998"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']">
+    <entry index="13" macro="defence_spl_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="12" connection="connectionsnap002"/>
+      <offset>
+        <position x="3083.821" z="572.861"/>
+        <rotation yaw="90.00002"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']">
+    <entry index="14" macro="pier_spl_harbor_02_macro" connection="connectionsnap001">
+      <predecessor index="13" connection="connectionsnap002"/>
+      <offset>
+        <position x="3483.821" z="572.861"/>
+        <rotation yaw="-179.99995"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']">
+    <entry index="15" macro="defence_spl_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="12" connection="connectionsnap003"/>
+      <offset>
+        <position x="2683.865" z="972.905"/>
+        <rotation yaw="179.99998"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']">
+    <entry index="16" macro="defence_spl_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="15" connection="connectionsnap001"/>
+      <offset>
+        <position x="2683.865" z="1372.904"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']">
+    <entry index="17" macro="defence_spl_tube_01_macro" connection="connectionsnap002">
+      <predecessor index="12" connection="connectionsnap004"/>
+      <offset>
+        <position x="2683.777" z="172.905"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_defence'][@name='{20102,1701}']">
+    <entry index="18" macro="defence_spl_tube_01_macro" connection="connectionsnap001">
+      <predecessor index="17" connection="connectionsnap001"/>
+      <offset>
+        <position x="2683.777" z="-227.095"/>
+        <rotation yaw="179.99997"/>
       </offset>
     </entry>
   </add>
@@ -1433,6 +2022,77 @@
       <offset>
         <position x="-1222.47" y="-3600" z="-1403.154"/>
         <rotation yaw="-45.00001"/>
+      </offset>
+    </entry>
+  </add>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='struct_spl_base_03_macro'][@connection='connectionsnap001'][@index='2']/offset/rotation/@yaw">-89.99998</replace>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='struct_spl_base_03_macro'][@connection='connectionsnap002'][@index='3']/offset/rotation/@yaw">-149.99997</replace>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='dockarea_arg_m_station_02_hightech_macro'][@connection='connectionsnap004'][@index='5']/offset/rotation/@yaw">149.99997</replace>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='hab_spl_l_01_macro'][@connection='connectionsnap001'][@index='8']/offset/rotation/@yaw">149.99997</replace>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='storage_spl_l_container_01_macro'][@connection='connectionsnap002'][@index='12']/offset/rotation/@yaw">149.99997</replace>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='pier_spl_harbor_03_macro'][@connection='connectionsnap001'][@index='14']/offset/rotation/@yaw">-60.00001</replace>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='hab_spl_l_01_macro'][@connection='connectionsnap001'][@index='15']/offset/rotation/@yaw">149.99997</replace>
+  <remove sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='storage_spl_s_liquid_01_macro']"/>
+  <remove sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='storage_spl_s_solid_01_macro']"/>
+  <remove sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='struct_spl_base_03_macro'][@connection='connectionsnap001'][@index='19']"/>
+  <remove sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='defence_spl_disc_01_macro']"/>
+  <remove sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='storage_spl_s_container_01_macro'][@connection='connectionsnap002'][@index='21']"/>
+  <remove sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='hab_spl_l_01_macro'][@connection='connectionsnap001'][@index='22']"/>
+  <remove sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='storage_spl_s_container_01_macro'][@connection='connectionsnap002'][@index='23']"/>
+  <remove sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='storage_spl_s_container_01_macro'][@connection='connectionsnap002'][@index='24']"/>
+  <remove sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='storage_spl_s_container_01_macro']"/>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='hab_spl_s_01_macro'][@connection='connectionsnap001'][@index='26']/@index">17</replace>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='hab_spl_s_01_macro'][@connection='connectionsnap001'][@index='27']/@index">18</replace>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='hab_spl_s_01_macro'][@connection='connectionsnap001'][@index='28']/@index">19</replace>
+  <replace sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']/entry[@macro='hab_spl_s_01_macro'][@connection='connectionsnap001'][@index='19']/offset/rotation/@yaw">149.99997</replace>
+  <add sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']">
+    <entry index="20" macro="storage_spl_l_solid_01_macro" connection="connectionsnap002">
+      <predecessor index="14" connection="connectionsnap008"/>
+      <offset>
+        <position x="-1821.179" y="-1000" z="-2262.883"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']">
+    <entry index="21" macro="storage_spl_l_liquid_01_macro" connection="connectionsnap002">
+      <predecessor index="13" connection="connectionsnap008"/>
+      <offset>
+        <position x="-1821.179" y="-1000" z="2933.27"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']">
+    <entry index="22" macro="storage_spl_l_container_01_macro" connection="connectionsnap002">
+      <predecessor index="10" connection="connectionsnap001"/>
+      <offset>
+        <position x="1278.822" y="-2600" z="335.194"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']">
+    <entry index="23" macro="struct_spl_base_03_macro" connection="connectionsnap001">
+      <predecessor index="2" connection="connectionsnap002"/>
+      <offset>
+        <position x="2878.822" z="335.194"/>
+        <rotation yaw="-89.99999"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']">
+    <entry index="24" macro="defence_spl_disc_01_macro" connection="connectionsnap002">
+      <predecessor index="23" connection="connectionsnap002"/>
+      <offset>
+        <position x="3978.822" z="335.194"/>
+        <rotation yaw="-30"/>
+      </offset>
+    </entry>
+  </add>
+  <add sel="/plans/plan[@id='spl_tradestation'][@name='{20102,1711}']">
+    <entry index="25" macro="hab_spl_l_01_macro" connection="connectionsnap001">
+      <predecessor index="23" connection="connectionsnap004"/>
+      <offset>
+        <position x="2878.822" y="1000" z="335.194"/>
+        <rotation yaw="90.00001"/>
       </offset>
     </entry>
   </add>
